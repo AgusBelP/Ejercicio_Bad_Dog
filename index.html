@@ -30,10 +30,10 @@
     <link rel="icon" href="img/favicon.png" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="img/bad-dog-studio-logo.png" alt="Studio Bad Dog" height = 100px />
+          <img src="img/bad-dog-studio-logo.png" alt="Studio Bad Dog" />
         </a>
         <button
           class="navbar-toggler"
@@ -44,25 +44,18 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span> 
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Inicio</a
-              >
-            </li>
-            <li class="nav-item dropdown">
-              <a
+          <ul class="navbar-nav ms-lg-auto">  <!-- margin start - large - auto  para alinear a la derecha el navbar-->
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+            <li class="nav-item dropdown"><a
                 class="nav-link dropdown-toggle"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Sitios
-              </a><ul class="dropdown-menu">
+                aria-expanded="false">Sitios</a>
+                <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="sitios.html#ultimos-proyectos">Últimos proyectos</a></li>
                 <li><a class="dropdown-item" href="sitios.html#single-page">Sitio <i>Single page</i></a></li>
                 <li><a class="dropdown-item" href="sitios.html#multi-page">Sitio <i>Multi page</i></a></li>

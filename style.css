@@ -1,7 +1,7 @@
 /* ******************* Custom Properties ******************* */
 :root {
  --first-color: rgb(217,0,98);
- --first-alpha-color: rgba(217,98,0,0.75);
+ --first-alpha-color: rgba(217,0,98,0.75);
  --second-color: rgb(20,25,45);
  --second-alpha-color: rgba(20,25,45,0.75);
  --third-color: rgb(80,20,100);
@@ -22,6 +22,41 @@ body {
 }  
 
 /* ******************* Bootstrap styles ******************* */
+
+.bg-dark{
+	background-color: var(--second-color) !important;
+}
+
+.navbar-brand img {
+	width: auto;
+	height: 48px;
+}
+
+.nav-item{
+	padding-left: 1px;
+	transition:all .3s ease-out;
+
+}
+
+.nav-item:hover{
+	background-color: var(--first-alpha-color);
+}
+
+.nav-link{
+	color: var(--first-color);
+	font-size: 1.15rem;
+	font-weight: bold;
+}
+
+.nav-link:hover{
+	color: white;
+}
+
+.dropdown-item{
+	color: var(--first-color);
+}
+
+
 
 /* ******************* My styles ******************* */
 
