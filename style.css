@@ -27,24 +27,24 @@ body {
 }
 
 .dropdown-item {
-	color: var(--first-alpha-color);
-	font-weight: bold;
-  }
-
-.dropdown-item:hover {
-	color: var(--third-alpha-color);
-	transition: all 0.3s ease-out;
+  color: var(--first-alpha-color);
+  font-weight: bold;
 }
 
-.navbar-dark .navbar-toggler{
-	--bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-	transition: all 0.3s ease-out;
+.dropdown-item:hover {
+  color: var(--third-alpha-color);
+  transition: all 0.3s ease-out;
+}
+
+.navbar-dark .navbar-toggler {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  transition: all 0.3s ease-out;
 }
 
 .navbar-dark .navbar-toggler:hover {
-	--bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28217, 0, 98, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-	opacity: 0.75;
-  }
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28217, 0, 98, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  opacity: 0.75;
+}
 
 .navbar-brand img {
   width: auto;
@@ -70,10 +70,6 @@ body {
   color: white;
 }
 
-
-
-
-
 /* ******************* My styles ******************* */
 
 /* X-Small devices (portrait phones, less than 576px) */
@@ -90,9 +86,9 @@ body {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-	.nav-item:hover {
-		background-color: transparent;
-	  }
+  .nav-item:hover {
+    background-color: transparent;
+  }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
