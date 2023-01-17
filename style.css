@@ -10,7 +10,7 @@
   --link-color: rgb(80, 158, 227);
   --link-alpha-color: rgba(80, 158, 277, 0.75);
 
-  --bg-bolor: rgb(245, 245, 245);
+  --bg-color: rgb(245, 245, 245);
   --bg-alpha-color: rgba(245, 245, 245, 0.75);
 }
 
@@ -96,6 +96,10 @@ a:hover {
 
 .bg-alpha-color {
   background-color: var(--bg-alpha-color);
+}
+
+.bg-second-alpha-color {
+  background-color: var(--second-alpha-color);
 }
 
 .bg-gradient-blue-green {
